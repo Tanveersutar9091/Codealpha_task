@@ -2,8 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# 1. Load the dataset (Use the CSV we created earlier)
-# If running in Colab, ensure 'scraped_data.csv' is uploaded
+
 try:
     df = pd.read_csv('scraped_data.csv')
 except FileNotFoundError:
@@ -48,4 +47,5 @@ plt.show()
 avg_price = df['Price'].mean()
 print(f"--- Key Insights for Stakeholders ---")
 print(f"1. The average price of the collection is £{avg_price:.2f}.")
+
 print(f"2. High-rated books (4-5 stars) do not necessarily cost more than lower-rated books.")
