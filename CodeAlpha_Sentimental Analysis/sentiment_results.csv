@@ -1,0 +1,9 @@
+Review,Sentiment,Polarity
+I absolutely love this product! It works perfectly.,Positive,0.8125
+The item arrived broken and customer service was terrible.,Negative,-0.7
+"It's okay, does the job but nothing special.",Positive,0.428571429
+"Fantastic quality, highly recommend to everyone!",Positive,0.3
+Poor design and very difficult to use. Disappointed.,Negative,-0.6
+Average experience. It's fine for the price.,Positive,0.133333333
+Best purchase I've made this year! Simply amazing.,Positive,0.8
+Worst experience ever. The product stopped working after one day.,Negative,-1
